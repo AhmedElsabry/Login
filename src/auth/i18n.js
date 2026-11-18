@@ -1,0 +1,46 @@
+export const TEXT = {
+  en: {
+    dir: "ltr", switchLang: "العربية",
+    tag: "From passive surveillance to intelligent, explainable, risk-aware safety.",
+    points: ["Live monitoring across every camera", "Explainable risk scores", "Human oversight on every decision"],
+    foot: "Decision support. Human oversight.",
+    login: {
+      title: "Sign in to AEGIX", sub: "Access the control room for your site.",
+      id: "Work email or employee ID", pw: "Password", remember: "Remember this device",
+      forgot: "Forgot password?", btn: "Sign in", or: "or", sso: "Continue with company SSO",
+      q: "New to AEGIX?", a: "Create an account", done: "Signed in (demo).",
+    },
+    signup: {
+      title: "Create your account", sub: "Join your site's safety team. A site administrator approves new accounts.",
+      name: "Full name", email: "Work email", site: "Plant / site", sites: ["Riverside Plant"],
+      role: "Role", roles: ["Control room operator", "Safety officer", "Plant manager"],
+      pw: "Password", hint: "At least 12 characters", terms: "I agree to the Terms of Use and Privacy Policy",
+      btn: "Create account", q: "Already have an account?", a: "Sign in",
+      done: "Request sent. A site administrator will approve your account.",
+    },
+    err: { required: "This field is required.", email: "Enter a valid work email.", pw: "Use at least 12 characters.", terms: "Accept the terms to continue." },
+    show: "Show password", hide: "Hide password",
+  },
+  ar: {
+    dir: "rtl", switchLang: "English",
+    tag: "من المراقبة السلبية إلى سلامة ذكية وقابلة للتفسير وواعية بالمخاطر.",
+    points: ["مراقبة حية عبر كل الكاميرات", "درجات مخاطر قابلة للتفسير", "إشراف بشري على كل قرار"],
+    foot: "دعم القرار. بإشراف بشري.",
+    login: {
+      title: "تسجيل الدخول إلى AEGIX", sub: "ادخل إلى غرفة التحكم الخاصة بموقعك.",
+      id: "البريد الإلكتروني للعمل أو الرقم الوظيفي", pw: "كلمة المرور", remember: "تذكّر هذا الجهاز",
+      forgot: "نسيت كلمة المرور؟", btn: "تسجيل الدخول", or: "أو", sso: "المتابعة عبر SSO الخاص بالشركة",
+      q: "ليس لديك حساب؟", a: "إنشاء حساب", done: "تم تسجيل الدخول (تجريبي).",
+    },
+    signup: {
+      title: "إنشاء حسابك", sub: "انضم إلى فريق السلامة في موقعك. يعتمد مسؤول الموقع الحسابات الجديدة.",
+      name: "الاسم الكامل", email: "البريد الإلكتروني للعمل", site: "المصنع / الموقع", sites: ["مصنع ريفرسايد"],
+      role: "الدور الوظيفي", roles: ["مشغّل غرفة التحكم", "مسؤول السلامة", "مدير المصنع"],
+      pw: "كلمة المرور", hint: "12 حرفًا على الأقل", terms: "أوافق على شروط الاستخدام وسياسة الخصوصية",
+      btn: "إنشاء حساب", q: "لديك حساب بالفعل؟", a: "تسجيل الدخول",
+      done: "تم إرسال الطلب. سيعتمد مسؤول الموقع حسابك.",
+    },
+    err: { required: "هذا الحقل مطلوب.", email: "أدخل بريد عمل صحيحًا.", pw: "استخدم 12 حرفًا على الأقل.", terms: "وافق على الشروط للمتابعة." },
+    show: "إظهار كلمة المرور", hide: "إخفاء كلمة المرور",
+  },
+};
